@@ -8,7 +8,7 @@ public class Food_Order_System extends Food_Menu {
 		while(true) {
 			System.out.println("..................................................................");
 			System.out.println("Please Select Your Pizza");
-			int choice =sc.nextInt();
+			int choice =sc.nextInt(); // Stores input(choice of user) 
 		switch(choice) {
 		case 1:value=value+145;
 		break;
